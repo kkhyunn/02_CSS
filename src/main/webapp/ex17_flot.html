@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>clearfix </title>
+<style type="text/css">
+	div{border: 1px solid red;}
+	#img1{float: left;}
+	
+	hr{clear: both;}
+	
+	#img2{float: left; margin-right: 30px;}
+	#d2{overflow: auto;}
+</style>
+</head>
+<body>
+<!--  부모태그에 자식태그를 고정 시킨다. -->
+
+<h2> clearfix를 안한 경우</h2>
+ <div>
+	 <img  id="img1"alt="" src="images/img_girl.jpg" style="width: 150px;">
+	 <p>이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.
+	 이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.
+	 이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.
+	 이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.</p>
+</div>
+<hr>
+
+<h2> clearfix를 한 경우</h2>
+<div id="d2">
+	 <img  id="img2"alt="" src="images/img_girl.jpg" style="width: 150px;">
+	 <p>이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.
+	 이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.
+	 이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.
+	 이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.이것은 float 연습니다.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	* {box-sizing: border-box;}
+	div.container{
+	  float: left;
+	  width: 33.33%;
+	  padding: 5px;
+	}
+	div.clearfix::after{
+		content: "";
+		clear: both;
+		display: table;
+	}
+</style>
+</head>
+<body>
+	<h2> Iamges Side by Side</h2>
+	<p> Float images side by side </p>
+	<div class="clearfix">
+		<div class="container">
+			<img alt="" src="images/img_5terre.jpg" style="width: 100%">
+		</div>
+		<div class="container">
+			<img alt="" src="images/img_forest.jpg" style="width: 100%">
+		</div>
+		<div class="container">
+			<img alt="" src="images/img_mountains.jpg" style="width: 100%">
+		</div>
+	</div>
+	<p> 위그림과 다른 내용들은 float에서 빠져나와 정상적인 아래 부분에서 내용이 보이게 한다.
+	 위그림과 다른 내용들은 float에서 빠져나와 정상적인 아래 부분에서 내용이 보이게 한다.
+	  위그림과 다른 내용들은 float에서 빠져나와 정상적인 아래 부분에서 내용이 보이게 한다.
+	   위그림과 다른 내용들은 float에서 빠져나와 정상적인 아래 부분에서 내용이 보이게 한다.
+	    위그림과 다른 내용들은 float에서 빠져나와 정상적인 아래 부분에서 내용이 보이게 한다.
+	     위그림과 다른 내용들은 float에서 빠져나와 정상적인 아래 부분에서 내용이 보이게 한다.
+	     </p>
+</body>
+</html>
